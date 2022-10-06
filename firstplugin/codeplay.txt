@@ -1,0 +1,9 @@
+//Awase Khirni Syed Elain Technologies Inc, Canada
+//awasekhirni@gmail.com awase008@gmail.com 
+
+Steps to setup the environment for figma plugin development 
+npm install -g typescript 
+npm install --save-dev @figma/plugin-typings
+
+build the plugin and transpile from typescript to es6
+tsc:watch -tsconfig.json
