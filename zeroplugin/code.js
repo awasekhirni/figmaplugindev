@@ -22,3 +22,5 @@ function runPlugin(){
 }
 
 
+runPlugin()
+
