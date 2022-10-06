@@ -1,0 +1,40 @@
+06-10-2022 16:16:48.542 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+06-10-2022 16:16:48.543 [Gauge] [INFO] Initializing specs cache with 0 specs
+06-10-2022 16:16:48.543 [Gauge] [INFO] Initializing steps cache with 0 steps
+06-10-2022 16:16:48.544 [Gauge] [ERROR] Unable to add directory c:\figmaplugindev\zeroplugin\specs to file watcher: GetFileAttributes: The system cannot find the file specified.
+06-10-2022 16:16:48.545 [Gauge] [DEBUG] There are version incompatibilities between Gauge and it's plugins in this project. Some features will not work as expected.
+06-10-2022 16:16:48.545 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+06-10-2022 16:16:50.903 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+06-10-2022 16:16:50.908 [Gauge] [ERROR] Specs directory specs does not exists.
+06-10-2022 16:16:51.053 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+06-10-2022 16:16:51.054 [Gauge] [INFO] Initializing specs cache with 0 specs
+06-10-2022 16:16:51.054 [Gauge] [INFO] Initializing steps cache with 0 steps
+06-10-2022 16:16:51.055 [Gauge] [DEBUG] There are version incompatibilities between Gauge and it's plugins in this project. Some features will not work as expected.
+06-10-2022 16:16:51.055 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+06-10-2022 16:16:51.055 [Gauge] [ERROR] Unable to add directory c:\figmaplugindev\zeroplugin\specs to file watcher: GetFileAttributes: The system cannot find the file specified.
+06-10-2022 16:16:51.492 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+06-10-2022 16:16:51.494 [Gauge] [ERROR] Specs directory specs does not exists.
+06-10-2022 16:16:51.959 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+06-10-2022 16:16:51.960 [Gauge] [INFO] Initializing specs cache with 0 specs
+06-10-2022 16:16:51.960 [Gauge] [INFO] Initializing steps cache with 0 steps
+06-10-2022 16:16:51.960 [Gauge] [DEBUG] There are version incompatibilities between Gauge and it's plugins in this project. Some features will not work as expected.
+06-10-2022 16:16:51.960 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+06-10-2022 16:16:51.960 [Gauge] [ERROR] Unable to add directory c:\figmaplugindev\zeroplugin\specs to file watcher: GetFileAttributes: The system cannot find the file specified.
+06-10-2022 16:16:51.965 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+06-10-2022 16:16:51.966 [Gauge] [ERROR] Specs directory specs does not exists.
+06-10-2022 16:16:52.058 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+06-10-2022 16:16:52.059 [Gauge] [INFO] Initializing specs cache with 0 specs
+06-10-2022 16:16:52.059 [Gauge] [INFO] Initializing steps cache with 0 steps
+06-10-2022 16:16:52.059 [Gauge] [DEBUG] There are version incompatibilities between Gauge and it's plugins in this project. Some features will not work as expected.
+06-10-2022 16:16:52.059 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+06-10-2022 16:16:52.059 [Gauge] [ERROR] Unable to add directory c:\figmaplugindev\zeroplugin\specs to file watcher: GetFileAttributes: The system cannot find the file specified.
+06-10-2022 16:16:52.139 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+06-10-2022 16:16:52.141 [Gauge] [ERROR] Specs directory specs does not exists.
+06-10-2022 16:16:52.247 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+06-10-2022 16:16:52.248 [Gauge] [INFO] Initializing specs cache with 0 specs
+06-10-2022 16:16:52.248 [Gauge] [INFO] Initializing steps cache with 0 steps
+06-10-2022 16:16:52.248 [Gauge] [DEBUG] There are version incompatibilities between Gauge and it's plugins in this project. Some features will not work as expected.
+06-10-2022 16:16:52.248 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+06-10-2022 16:16:52.248 [Gauge] [ERROR] Unable to add directory c:\figmaplugindev\zeroplugin\specs to file watcher: GetFileAttributes: The system cannot find the file specified.
+06-10-2022 16:16:52.251 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+06-10-2022 16:16:52.252 [Gauge] [ERROR] Specs directory specs does not exists.

@@ -1,0 +1,10 @@
+{
+  "name": "zeroplugin",
+  "id": "1159946079860560247",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ]
+}
