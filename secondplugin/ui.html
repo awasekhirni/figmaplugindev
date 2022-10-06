@@ -1,0 +1,74 @@
+<h1>
+  color tint generator
+</h1>
+<form id="pluginForm">
+  <legend>Color Information</legend>
+  <fieldset>
+  <p>
+    <label for="colorCode">Color</label>
+    <input type="color" id="colorCode" name="colorCode" value="#FF5733"/>
+  </p>
+  <p>
+    <label for="colorName">ColorName</label>
+    <input type="text" id="colorName" name="colorName" value="Primary"/>
+  </p>
+<p>
+  <label for="tintNumber">Number of tints</label>
+    <input type="number" id="tintNumber" name="tintNumber" value="10" min="1" max="10"/>
+</p>
+</fieldset>
+
+<fieldset>
+  <p>
+    <label for="circleSize">Circle Size</label>
+      <input type="number" id="circleSize" name="circleSize" value="120" min="48" />
+  </p>
+  <p>
+    <label for="circleSpacing">Circle Spacing</label>
+      <input type="number" id="circleSpacing" name="circleSpacing" value="32" min="0" />
+  </p>
+  <p>
+    <label>Select the orientation:</label>
+    <input type="radio" name="direction" id="frameH" checked/>
+    <label for="frameH">Horizontal</label>
+    <input type="radio" name="direction" id="frameV" />
+    <label for="frameV">Vertical</label>
+  </p>
+</fieldset>
+
+
+<input type="hidden" name="frameDirection" value="horizontal"/>
+<button id="generate">Generate Tints</button>
+<button id="cancel">Cancel</button>
+</form>
+
+<script>
+
+  //generate operation
+  document.getElementById('generate').onclick=(event) =>{
+    event.preventDefault()
+    let pluginForm=document.querySelector('#pluginForm')
+    //retrieve the field data from the form 
+    let pluginFormData=new FormData(pluginForm)
+
+    //update the frameDirection value if its vertical 
+    if(document.querySelector("#frameV").checked){
+      pluginFormData.set('frameDirection','vertical')
+    }
+
+    //create an object and populate the form data 
+    let formDataObj={}
+    for (let [key,value] of pluginFormData){
+      formDataObj[key]=value
+    }
+    //console.log(formDataObj)
+    parent.postMessage({pluginMessage:{type:'actionGenerate',formDataObj}},'*')
+  }
+
+//cancel operation
+
+document.getElementById('cancel').onclick=(event)=>{
+  event.preventDefault()
+  parent.postMessage({pluginMessage:{type:'actionExit'}},'*')
+}
+</script>
